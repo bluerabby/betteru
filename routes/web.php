@@ -11,6 +11,16 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Auth::routes();
+
+Route::get('/admin', 'AdminController@index')->name('home');
+Route::prefix('admin')->group(function () {
+    Route::resource('formulir1', 'Admin\Formulir\Formulir1\Formulir1Controller');
 });

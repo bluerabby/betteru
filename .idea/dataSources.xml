@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="subilla@localhost" uuid="c1ea00b3-78f7-42c3-9538-0b04e6f21e96">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/subilla</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="Asia/Jakarta" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
